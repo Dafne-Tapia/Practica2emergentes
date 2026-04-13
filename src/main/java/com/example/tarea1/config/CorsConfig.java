@@ -17,7 +17,8 @@ public class CorsConfig {
                         .allowedOrigins(
                                 "http://localhost:4200",
                                 "https://*.ngrok.io",
-                                "https://*.ngrok-free.app"
+                                "https://*.ngrok-free.app",
+                                "https://practica2emergentes-6.onrender.com"
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
